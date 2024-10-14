@@ -8,3 +8,8 @@ name = gets
 # .inspect inspect what is inside this variable
 puts "Welcome - #{name.inspect}"
 puts "Welcome - #{name}"
+
+=begin
+  multiline
+  comment
+=end
