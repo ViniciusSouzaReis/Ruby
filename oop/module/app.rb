@@ -12,5 +12,6 @@ d = gets.chomp
 puts "Enter payment amount: "
 p = gets.chomp
 
-puts Payment::pay(d, p)
+puts pay(d, p)
+puts Payment::pay(d, p) #Necessary when not using include Payment
 
